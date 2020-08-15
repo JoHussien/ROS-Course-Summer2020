@@ -1,0 +1,2 @@
+src/ball_chaser:src/my_robot
+-DCATKIN_DEVEL_PREFIX=/home/youssefhusien/Desktop/ROS Course Summer2020/Day 3/script/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/youssefhusien/Desktop/ROS Course Summer2020/Day 3/script/AUC-Robotics-Summer-Camp/Day3/catkin_ws/install -G Unix Makefiles
