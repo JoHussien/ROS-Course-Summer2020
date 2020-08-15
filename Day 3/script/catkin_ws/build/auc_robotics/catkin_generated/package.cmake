@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "auc_robotics")
 set(auc_robotics_VERSION "0.0.0")
-set(auc_robotics_MAINTAINER "youssefhusien <youssefhusien@todo.todo>")
+set(auc_robotics_MAINTAINER "Youssef M.Hussien <youssefhusien@aucegypt.edu>")
 set(auc_robotics_PACKAGE_FORMAT "2")
 set(auc_robotics_BUILD_DEPENDS "roscpp" "rospy" "sensor_msgs" "std_msgs")
 set(auc_robotics_BUILD_EXPORT_DEPENDS "roscpp" "rospy" "sensor_msgs" "std_msgs")

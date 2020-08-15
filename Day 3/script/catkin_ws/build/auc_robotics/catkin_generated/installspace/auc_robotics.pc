@@ -1,4 +1,4 @@
-prefix=/home/youssefhusien/catkin_ws/install
+prefix=/home/youssefhusien/Desktop/ROS Course Summer2020/Day 3/script/catkin_ws/install
 
 Name: auc_robotics
 Description: Description of auc_robotics

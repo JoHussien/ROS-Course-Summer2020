@@ -1,2 +1,2 @@
 auc_robotics
--DCATKIN_DEVEL_PREFIX=/home/youssefhusien/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/youssefhusien/catkin_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/youssefhusien/Desktop/ROS Course Summer2020/Day 3/script/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/youssefhusien/Desktop/ROS Course Summer2020/Day 3/script/catkin_ws/install -G Unix Makefiles
