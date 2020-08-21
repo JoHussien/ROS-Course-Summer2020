@@ -3,6 +3,6 @@ prefix=/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/yous
 Name: light_robot
 Description: Description of light_robot
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/devel/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: message_runtime
