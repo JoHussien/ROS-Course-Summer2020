@@ -1,0 +1,2 @@
+light_robot
+-DCATKIN_DEVEL_PREFIX=/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/devel -DCMAKE_INSTALL_PREFIX=/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/install -G Unix Makefiles
