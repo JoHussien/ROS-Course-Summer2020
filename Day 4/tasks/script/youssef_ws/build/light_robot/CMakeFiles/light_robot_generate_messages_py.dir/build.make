@@ -54,7 +54,9 @@ CMAKE_BINARY_DIR = "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/task
 include light_robot/CMakeFiles/light_robot_generate_messages_py.dir/progress.make
 
 light_robot/CMakeFiles/light_robot_generate_messages_py: /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_complex.py
+light_robot/CMakeFiles/light_robot_generate_messages_py: /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_count_words.py
 light_robot/CMakeFiles/light_robot_generate_messages_py: /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py
+light_robot/CMakeFiles/light_robot_generate_messages_py: /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py
 
 
 /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_complex.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
@@ -62,14 +64,28 @@ light_robot/CMakeFiles/light_robot_generate_messages_py: /home/youssefhusien/Des
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG light_robot/complex"
 	cd "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build/light_robot" && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/src/light_robot/msg/complex.msg -Ilight_robot:/home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/src/light_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p light_robot -o /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/msg
 
+/home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_count_words.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_count_words.py: /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/src/light_robot/srv/count_words.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV light_robot/count_words"
+	cd "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build/light_robot" && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/src/light_robot/srv/count_words.srv -Ilight_robot:/home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/src/light_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p light_robot -o /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/srv
+
 /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
 /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py: /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_complex.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for light_robot"
+/home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py: /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_count_words.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for light_robot"
 	cd "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build/light_robot" && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/msg --initpy
+
+/home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py: /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_complex.py
+/home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py: /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_count_words.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for light_robot"
+	cd "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build/light_robot" && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/srv --initpy
 
 light_robot_generate_messages_py: light_robot/CMakeFiles/light_robot_generate_messages_py
 light_robot_generate_messages_py: /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_complex.py
+light_robot_generate_messages_py: /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_count_words.py
 light_robot_generate_messages_py: /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py
+light_robot_generate_messages_py: /home/youssefhusien/Desktop/ROS\ Course\ Summer2020/Day\ 4/tasks/script/youssef_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py
 light_robot_generate_messages_py: light_robot/CMakeFiles/light_robot_generate_messages_py.dir/build.make
 
 .PHONY : light_robot_generate_messages_py

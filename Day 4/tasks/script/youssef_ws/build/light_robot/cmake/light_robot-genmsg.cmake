@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "light_robot: 1 messages, 0 services")
+message(STATUS "light_robot: 1 messages, 1 services")
 
 set(MSG_I_FLAGS "-Ilight_robot:/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
 
@@ -16,6 +16,11 @@ add_custom_target(light_robot_generate_messages ALL)
 # verify that message/service dependencies have not changed since configure
 
 
+
+get_filename_component(_filename "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/srv/count_words.srv" NAME_WE)
+add_custom_target(_light_robot_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "light_robot" "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/srv/count_words.srv" ""
+)
 
 get_filename_component(_filename "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/msg/complex.msg" NAME_WE)
 add_custom_target(_light_robot_generate_messages_check_deps_${_filename}
@@ -36,6 +41,12 @@ _generate_msg_cpp(light_robot
 )
 
 ### Generating Services
+_generate_srv_cpp(light_robot
+  "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/srv/count_words.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/light_robot
+)
 
 ### Generating Module File
 _generate_module_cpp(light_robot
@@ -49,6 +60,8 @@ add_custom_target(light_robot_generate_messages_cpp
 add_dependencies(light_robot_generate_messages light_robot_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/srv/count_words.srv" NAME_WE)
+add_dependencies(light_robot_generate_messages_cpp _light_robot_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/msg/complex.msg" NAME_WE)
 add_dependencies(light_robot_generate_messages_cpp _light_robot_generate_messages_check_deps_${_filename})
 
@@ -69,6 +82,12 @@ _generate_msg_eus(light_robot
 )
 
 ### Generating Services
+_generate_srv_eus(light_robot
+  "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/srv/count_words.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/light_robot
+)
 
 ### Generating Module File
 _generate_module_eus(light_robot
@@ -82,6 +101,8 @@ add_custom_target(light_robot_generate_messages_eus
 add_dependencies(light_robot_generate_messages light_robot_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/srv/count_words.srv" NAME_WE)
+add_dependencies(light_robot_generate_messages_eus _light_robot_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/msg/complex.msg" NAME_WE)
 add_dependencies(light_robot_generate_messages_eus _light_robot_generate_messages_check_deps_${_filename})
 
@@ -102,6 +123,12 @@ _generate_msg_lisp(light_robot
 )
 
 ### Generating Services
+_generate_srv_lisp(light_robot
+  "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/srv/count_words.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/light_robot
+)
 
 ### Generating Module File
 _generate_module_lisp(light_robot
@@ -115,6 +142,8 @@ add_custom_target(light_robot_generate_messages_lisp
 add_dependencies(light_robot_generate_messages light_robot_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/srv/count_words.srv" NAME_WE)
+add_dependencies(light_robot_generate_messages_lisp _light_robot_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/msg/complex.msg" NAME_WE)
 add_dependencies(light_robot_generate_messages_lisp _light_robot_generate_messages_check_deps_${_filename})
 
@@ -135,6 +164,12 @@ _generate_msg_nodejs(light_robot
 )
 
 ### Generating Services
+_generate_srv_nodejs(light_robot
+  "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/srv/count_words.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/light_robot
+)
 
 ### Generating Module File
 _generate_module_nodejs(light_robot
@@ -148,6 +183,8 @@ add_custom_target(light_robot_generate_messages_nodejs
 add_dependencies(light_robot_generate_messages light_robot_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/srv/count_words.srv" NAME_WE)
+add_dependencies(light_robot_generate_messages_nodejs _light_robot_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/msg/complex.msg" NAME_WE)
 add_dependencies(light_robot_generate_messages_nodejs _light_robot_generate_messages_check_deps_${_filename})
 
@@ -168,6 +205,12 @@ _generate_msg_py(light_robot
 )
 
 ### Generating Services
+_generate_srv_py(light_robot
+  "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/srv/count_words.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/light_robot
+)
 
 ### Generating Module File
 _generate_module_py(light_robot
@@ -181,6 +224,8 @@ add_custom_target(light_robot_generate_messages_py
 add_dependencies(light_robot_generate_messages light_robot_generate_messages_py)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/srv/count_words.srv" NAME_WE)
+add_dependencies(light_robot_generate_messages_py _light_robot_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/msg/complex.msg" NAME_WE)
 add_dependencies(light_robot_generate_messages_py _light_robot_generate_messages_check_deps_${_filename})
 

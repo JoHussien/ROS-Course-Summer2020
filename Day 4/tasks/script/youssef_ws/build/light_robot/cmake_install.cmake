@@ -37,6 +37,10 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/light_robot/srv" TYPE FILE FILES "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/src/light_robot/srv/count_words.srv")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/light_robot/cmake" TYPE FILE FILES "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build/light_robot/catkin_generated/installspace/light_robot-msg-paths.cmake")
 endif()
 

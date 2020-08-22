@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/light_robot_generate_messages_eus"
   "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/devel/share/roseus/ros/light_robot/msg/complex.l"
+  "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/devel/share/roseus/ros/light_robot/srv/count_words.l"
   "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/devel/share/roseus/ros/light_robot/manifest.l"
 )
 

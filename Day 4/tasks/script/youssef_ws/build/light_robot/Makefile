@@ -211,6 +211,21 @@ light_robot_genlisp/fast:
 .PHONY : light_robot_genlisp/fast
 
 # Convenience name for target.
+light_robot/CMakeFiles/light_robot_generate_messages_lisp.dir/rule:
+	cd "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/light_robot_generate_messages_lisp.dir/rule
+.PHONY : light_robot/CMakeFiles/light_robot_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+light_robot_generate_messages_lisp: light_robot/CMakeFiles/light_robot_generate_messages_lisp.dir/rule
+
+.PHONY : light_robot_generate_messages_lisp
+
+# fast build rule for target.
+light_robot_generate_messages_lisp/fast:
+	cd "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build" && $(MAKE) -f light_robot/CMakeFiles/light_robot_generate_messages_lisp.dir/build.make light_robot/CMakeFiles/light_robot_generate_messages_lisp.dir/build
+.PHONY : light_robot_generate_messages_lisp/fast
+
+# Convenience name for target.
 light_robot/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
 	cd "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : light_robot/CMakeFiles/std_msgs_generate_messages_py.dir/rule
@@ -391,21 +406,6 @@ roscpp_generate_messages_nodejs/fast:
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
-light_robot/CMakeFiles/light_robot_generate_messages_lisp.dir/rule:
-	cd "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/light_robot_generate_messages_lisp.dir/rule
-.PHONY : light_robot/CMakeFiles/light_robot_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-light_robot_generate_messages_lisp: light_robot/CMakeFiles/light_robot_generate_messages_lisp.dir/rule
-
-.PHONY : light_robot_generate_messages_lisp
-
-# fast build rule for target.
-light_robot_generate_messages_lisp/fast:
-	cd "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build" && $(MAKE) -f light_robot/CMakeFiles/light_robot_generate_messages_lisp.dir/build.make light_robot/CMakeFiles/light_robot_generate_messages_lisp.dir/build
-.PHONY : light_robot_generate_messages_lisp/fast
-
-# Convenience name for target.
 light_robot/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
 	cd "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : light_robot/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
@@ -511,6 +511,21 @@ light_robot_generate_messages/fast:
 .PHONY : light_robot_generate_messages/fast
 
 # Convenience name for target.
+light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_count_words.dir/rule:
+	cd "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_count_words.dir/rule
+.PHONY : light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_count_words.dir/rule
+
+# Convenience name for target.
+_light_robot_generate_messages_check_deps_count_words: light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_count_words.dir/rule
+
+.PHONY : _light_robot_generate_messages_check_deps_count_words
+
+# fast build rule for target.
+_light_robot_generate_messages_check_deps_count_words/fast:
+	cd "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build" && $(MAKE) -f light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_count_words.dir/build.make light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_count_words.dir/build
+.PHONY : _light_robot_generate_messages_check_deps_count_words/fast
+
+# Convenience name for target.
 light_robot/CMakeFiles/light_robot_generate_messages_nodejs.dir/rule:
 	cd "/home/youssefhusien/Desktop/ROS Course Summer2020/Day 4/tasks/script/youssef_ws/build" && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/light_robot_generate_messages_nodejs.dir/rule
 .PHONY : light_robot/CMakeFiles/light_robot_generate_messages_nodejs.dir/rule
@@ -585,6 +600,7 @@ help:
 	@echo "... light_robot_generate_messages_py"
 	@echo "... install/strip"
 	@echo "... light_robot_genlisp"
+	@echo "... light_robot_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
@@ -597,7 +613,6 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... light_robot_generate_messages_eus"
 	@echo "... roscpp_generate_messages_nodejs"
-	@echo "... light_robot_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_eus"
@@ -605,6 +620,7 @@ help:
 	@echo "... light_robot_gennodejs"
 	@echo "... light_robot_geneus"
 	@echo "... light_robot_generate_messages"
+	@echo "... _light_robot_generate_messages_check_deps_count_words"
 	@echo "... light_robot_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... light_robot_generate_messages_cpp"
